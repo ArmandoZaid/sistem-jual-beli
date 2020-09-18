@@ -36,8 +36,6 @@
             this.labelServer = new System.Windows.Forms.Label();
             this.panelLogin = new System.Windows.Forms.Panel();
             this.buttonKeluar = new System.Windows.Forms.Button();
-            this.linkLabelPengaturan = new System.Windows.Forms.LinkLabel();
-            this.textBoxPassword = new System.Windows.Forms.TextBox();
             this.labelPassword = new System.Windows.Forms.Label();
             this.panelPengaturan.SuspendLayout();
             this.panelLogin.SuspendLayout();
@@ -109,8 +107,6 @@
             // 
             this.panelLogin.BackColor = System.Drawing.Color.Lavender;
             this.panelLogin.Controls.Add(this.buttonKeluar);
-            this.panelLogin.Controls.Add(this.linkLabelPengaturan);
-            this.panelLogin.Controls.Add(this.textBoxPassword);
             this.panelLogin.Controls.Add(this.labelPassword);
             this.panelLogin.Location = new System.Drawing.Point(1, 0);
             this.panelLogin.Name = "panelLogin";
@@ -123,43 +119,23 @@
             this.buttonKeluar.BackColor = System.Drawing.Color.Red;
             this.buttonKeluar.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonKeluar.ForeColor = System.Drawing.Color.White;
-            this.buttonKeluar.Location = new System.Drawing.Point(297, 103);
+            this.buttonKeluar.Location = new System.Drawing.Point(111, 30);
             this.buttonKeluar.Name = "buttonKeluar";
-            this.buttonKeluar.Size = new System.Drawing.Size(122, 42);
+            this.buttonKeluar.Size = new System.Drawing.Size(255, 62);
             this.buttonKeluar.TabIndex = 5;
-            this.buttonKeluar.Text = "KELUAR";
+            this.buttonKeluar.Text = "ARMANDO VTUBER";
             this.buttonKeluar.UseVisualStyleBackColor = false;
             this.buttonKeluar.Click += new System.EventHandler(this.buttonKeluar_Click);
             // 
-            // linkLabelPengaturan
-            // 
-            this.linkLabelPengaturan.AutoSize = true;
-            this.linkLabelPengaturan.Location = new System.Drawing.Point(23, 156);
-            this.linkLabelPengaturan.Name = "linkLabelPengaturan";
-            this.linkLabelPengaturan.Size = new System.Drawing.Size(125, 17);
-            this.linkLabelPengaturan.TabIndex = 6;
-            this.linkLabelPengaturan.TabStop = true;
-            this.linkLabelPengaturan.Text = "Pengaturan Lanjut";
-            this.linkLabelPengaturan.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelPengaturan_LinkClicked);
-            // 
-            // textBoxPassword
-            // 
-            this.textBoxPassword.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxPassword.Location = new System.Drawing.Point(133, 55);
-            this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.PasswordChar = '*';
-            this.textBoxPassword.Size = new System.Drawing.Size(286, 26);
-            this.textBoxPassword.TabIndex = 3;
-            // 
             // labelPassword
             // 
-            this.labelPassword.AutoSize = true;
-            this.labelPassword.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPassword.Location = new System.Drawing.Point(34, 60);
+            this.labelPassword.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPassword.Location = new System.Drawing.Point(152, 111);
             this.labelPassword.Name = "labelPassword";
-            this.labelPassword.Size = new System.Drawing.Size(84, 17);
+            this.labelPassword.Size = new System.Drawing.Size(160, 38);
             this.labelPassword.TabIndex = 2;
-            this.labelPassword.Text = "Password :";
+            this.labelPassword.Text = "STRESS";
+            this.labelPassword.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // FormLogin
             // 
@@ -175,7 +151,6 @@
             this.panelPengaturan.ResumeLayout(false);
             this.panelPengaturan.PerformLayout();
             this.panelLogin.ResumeLayout(false);
-            this.panelLogin.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -190,8 +165,6 @@
         private System.Windows.Forms.Label labelServer;
         private System.Windows.Forms.Panel panelLogin;
         private System.Windows.Forms.Button buttonKeluar;
-        private System.Windows.Forms.LinkLabel linkLabelPengaturan;
-        private System.Windows.Forms.TextBox textBoxPassword;
         private System.Windows.Forms.Label labelPassword;
     }
 }
