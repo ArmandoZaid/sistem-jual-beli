@@ -37,9 +37,6 @@
             this.panelLogin = new System.Windows.Forms.Panel();
             this.buttonKeluar = new System.Windows.Forms.Button();
             this.linkLabelPengaturan = new System.Windows.Forms.LinkLabel();
-            this.buttonLogin = new System.Windows.Forms.Button();
-            this.textBoxUsername = new System.Windows.Forms.TextBox();
-            this.labelUsername = new System.Windows.Forms.Label();
             this.textBoxPassword = new System.Windows.Forms.TextBox();
             this.labelPassword = new System.Windows.Forms.Label();
             this.panelPengaturan.SuspendLayout();
@@ -113,9 +110,6 @@
             this.panelLogin.BackColor = System.Drawing.Color.Lavender;
             this.panelLogin.Controls.Add(this.buttonKeluar);
             this.panelLogin.Controls.Add(this.linkLabelPengaturan);
-            this.panelLogin.Controls.Add(this.buttonLogin);
-            this.panelLogin.Controls.Add(this.textBoxUsername);
-            this.panelLogin.Controls.Add(this.labelUsername);
             this.panelLogin.Controls.Add(this.textBoxPassword);
             this.panelLogin.Controls.Add(this.labelPassword);
             this.panelLogin.Location = new System.Drawing.Point(1, 0);
@@ -126,7 +120,7 @@
             // 
             // buttonKeluar
             // 
-            this.buttonKeluar.BackColor = System.Drawing.Color.Navy;
+            this.buttonKeluar.BackColor = System.Drawing.Color.Red;
             this.buttonKeluar.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonKeluar.ForeColor = System.Drawing.Color.White;
             this.buttonKeluar.Location = new System.Drawing.Point(297, 103);
@@ -147,37 +141,6 @@
             this.linkLabelPengaturan.TabStop = true;
             this.linkLabelPengaturan.Text = "Pengaturan Lanjut";
             this.linkLabelPengaturan.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelPengaturan_LinkClicked);
-            // 
-            // buttonLogin
-            // 
-            this.buttonLogin.BackColor = System.Drawing.Color.Navy;
-            this.buttonLogin.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonLogin.ForeColor = System.Drawing.Color.White;
-            this.buttonLogin.Location = new System.Drawing.Point(160, 103);
-            this.buttonLogin.Name = "buttonLogin";
-            this.buttonLogin.Size = new System.Drawing.Size(122, 42);
-            this.buttonLogin.TabIndex = 4;
-            this.buttonLogin.Text = "LOGIN";
-            this.buttonLogin.UseVisualStyleBackColor = false;
-            this.buttonLogin.Click += new System.EventHandler(this.buttonLogin_Click);
-            // 
-            // textBoxUsername
-            // 
-            this.textBoxUsername.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxUsername.Location = new System.Drawing.Point(133, 21);
-            this.textBoxUsername.Name = "textBoxUsername";
-            this.textBoxUsername.Size = new System.Drawing.Size(286, 26);
-            this.textBoxUsername.TabIndex = 1;
-            // 
-            // labelUsername
-            // 
-            this.labelUsername.AutoSize = true;
-            this.labelUsername.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelUsername.Location = new System.Drawing.Point(32, 26);
-            this.labelUsername.Name = "labelUsername";
-            this.labelUsername.Size = new System.Drawing.Size(86, 17);
-            this.labelUsername.TabIndex = 0;
-            this.labelUsername.Text = "Username :";
             // 
             // textBoxPassword
             // 
@@ -228,9 +191,6 @@
         private System.Windows.Forms.Panel panelLogin;
         private System.Windows.Forms.Button buttonKeluar;
         private System.Windows.Forms.LinkLabel linkLabelPengaturan;
-        private System.Windows.Forms.Button buttonLogin;
-        private System.Windows.Forms.TextBox textBoxUsername;
-        private System.Windows.Forms.Label labelUsername;
         private System.Windows.Forms.TextBox textBoxPassword;
         private System.Windows.Forms.Label labelPassword;
     }
